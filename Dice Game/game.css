@@ -1,0 +1,31 @@
+@import url('http://fonts.cdnfonts.com/css/casino');
+h1{
+    color: beige;
+    font-family: 'Casino Flat', sans-serif;
+}
+button{
+    height: 40%;
+    width: 30%;
+    background-color: brown;
+    font-size: 46px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: black;
+}
+.game{
+    height: 70%;
+    width: 50%;
+    background-color: green;
+    border-radius: 15px;
+}
+.game:hover{
+    background-color: rgb(0, 97, 0);
+}
+#player{
+    color: blue;
+}
+#computer{
+    color: red;
+}
