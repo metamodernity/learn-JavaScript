@@ -8,7 +8,10 @@ class Person{
         this._lastName = lastName;
         this._age = age;
     }
-
+    
+    public get fullName() {
+        return `Фамилия -${this._lastName} Имя - ${this._firstName}`
+    }
     get firstName(){
         return this._firstName;
     }
@@ -63,4 +66,4 @@ class Developer extends Employee{ //Класс Программист насле
     }
 }
 const Leonid = new Developer('Leonid', 'Yakovlev', 19, 15, 10, 100, 'Junior')
-console.log(Leonid)
+console.log(Leonid.fullName)
